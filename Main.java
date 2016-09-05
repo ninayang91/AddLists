@@ -17,12 +17,7 @@ public class Main {
 			System.out.println(p.data);
 			p=p.next;
 		}
-/*		Node p=partition(head, 4);
-		while(p!=null){
-			System.out.println(p.data);
-			p=p.next;
-		}*/
-		//System.out.println(kToLast(head, 5));
+
 	}
 	//add numbers in two singly linked list 8-2-5-9,8-2-5-3, return 6-5-0-3-1
 	//new Node result, add value=(carry+l1.data+l2.data),value % 10 as result.data
